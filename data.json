@@ -1,0 +1,94 @@
+{
+  "databases": [
+    {
+      "name": "ACM Digital Library",
+      "queries": [
+        {
+          "category": "Direct access to restricted resources",
+          "query_string": "('directory traversal' OR 'forced browsing' OR 'path traversal' OR 'insecure direct object reference' OR 'link following' OR 'web root') AND ('client-side' OR 'web application' OR 'front-end' OR 'user interface') AND NOT mobile AND NOT android AND NOT ios",
+          "url": "https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&AllField=Abstract%3A%28%28%22directory+traversal%22+OR+%22forced+browsing%22+OR+%22path+traversal%22+OR+%22insecure+direct+object+reference%22+OR+%22link+following%22+OR+%22web+root%22%29+AND+%28%22client-side%22+OR+%22web+application%22+OR+%22front-end%22+OR+%22user+interface%22%29+AND+NOT+mobile+AND+NOT+android+AND+AND+NOT+ios%29"
+        },
+        {
+          "category": "GUI exploitation",
+          "query_string": "('DOM clobbering' OR 'clickjacking' OR 'framejacking') OR (  ('business flow tampering' OR 'prototype pollution' OR 'hidden iframe' OR 'invisible iframe' OR 'hidden field' OR 'logic tampering') AND  ('client-side' OR 'front-end' OR 'user interface' OR 'web service') ) AND NOT ('mobile' OR 'android' OR 'ios')",
+          "url": "https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&AllField=Abstract:((%22DOM+clobbering%22+OR+%22clickjacking%22)+OR+(+(%22flow+tampering%22+OR+%22prototype+pollution%22+OR+%22hidden+iframe%22+OR+%22invisible+iframe%22+OR+%22hidden+field%22+OR+%22logic+tampering%22+OR+%22logic+flaws%22)+AND+(%22client-side%22+OR+%22front-end%22+OR+%22user+interface%22+OR+%22web+service%22+OR+%22web+applications%22)+)+AND+NOT+(%22mobile%22+OR+%22android%22+OR+%22ios%22))"
+        },
+        {
+          "category": "Client request manipulation",
+          "query_string": "('tabnabbing') OR ( ('CSRF' OR 'redirect attack' OR 'open redirect' OR 'parameter tampering' OR 'confused deputy') AND ('client-side' OR 'web application' OR 'front-end' OR 'user interface') ) AND NOT mobile AND NOT android AND NOT ios",
+          "url": "https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&field1=Abstract&text1=%28%22tabnabbing%22%29+OR+%28++%28%22CSRF%22+OR+%22redirect+attack%22+OR+%22open+redirect%22+OR+%22parameter+tampering%22+OR+%22confused+deputy%22%29+AND+++%28%22client-side%22+OR+%22web+application%22+OR+%22front-end%22+OR+%22user+interface%22%29++%29++AND+NOT+mobile++AND+NOT+android++AND+NOT+ios"
+        },
+        {
+          "category": "Metadata manipulation",
+          "query_string": "('improper SameSite' OR 'cookie theft' OR 'cookie tampering' OR 'session hijacking' OR 'CORS misconfiguration' OR 'JWT tampering' OR 'PPI') AND ('client-side' OR 'web application' OR 'front-end' OR 'user interface') AND NOT mobile AND NOT android AND NOT ios",
+          "url": "https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&AllField=Abstract%3A%28%28%22improper+SameSite%22+OR+%22cookie+theft%22+OR+%22cookie+tampering%22+OR+%22session+hijacking%22+OR+%22CORS+misconfiguration%22+OR+%22JWT+tampering%22+OR+%22PPI%22%29+AND+%28%22client-side%22+OR+%22web+application%22+OR+%22front-end%22+OR+%22user+interface%22%29+AND+NOT+mobile+AND+NOT+android+AND+AND+NOT+ios%29"
+        },
+        {
+          "category": "Insecure storage",
+          "query_string": "('insecure storage' OR 'localStorage' OR 'sessionStorage' OR 'IndexedDB' OR 'web storage') AND ('web application' OR 'website')AND NOT mobile AND NOT android AND NOT ios",
+          "url": "https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&AllField=Abstract%3A%28%28%22insecure+storage%22+OR+%22localStorage%22+OR+%22sessionStorage%22+OR+%22IndexedDB%22+OR+%22web+storage%22%29+AND+NOT+mobile+AND+NOT+android+AND+NOT+ios%29+AND+Abstract%3A%28%28%22insecure+storage%22+OR+%22localStorage%22+OR+%22sessionStorage%22+OR+%22IndexedDB%22+OR+%22web+storage%22%29+AND+%28%22web+application%22+OR+%22website%22%29+AND+NOT+mobile++AND+NOT+android++AND+NOT+ios%29"
+        }
+      ]
+    },
+    {
+      "name": "IEEE Xplore",
+      "queries": [
+        {
+          "category": "Direct access to restricted resources",
+          "query_string": "(('Abstract': 'directory traversal') OR ('Abstract': 'path traversal') OR ('Abstract': 'forced browsing') OR ('Abstract': 'insecure direct object reference') OR ('Abstract': 'web root') OR ('Abstract': 'link following') ) AND ( ('Abstract': 'client-side') OR ('Abstract': 'web client') OR ('Abstract': 'web application') OR ('Abstract': 'front-end') OR ('Abstract': 'user interface')) NOT ('Abstract': 'mobile') NOT ('Abstract': 'android') NOT ('Abstract': 'ios')",
+          "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=(%20%20%20(%22Abstract%22:%20%22directory%20traversal%22)%20OR%20%20%20%20(%22Abstract%22:%20%22path%20traversal%22)%20OR%20%20%20%20(%22Abstract%22:%20%22forced%20browsing%22)%20OR%20%20%20%20(%22Abstract%22:%20%22insecure%20direct%20object%20reference%22)%20OR%20%20%20(%22Abstract%22:%20%22web%20root%22)%20OR%20%20%20(%22Abstract%22:%20%22link%20following%22)%20%20)%20%20AND%20(%20%20%20(%22Abstract%22:%20%22client-side%22)%20OR%20%20%20%20(%22Abstract%22:%20%22web%20client%22)%20OR%20%20%20%20(%22Abstract%22:%20%22web%20application%22)%20OR%20%20%20%20(%22Abstract%22:%20%22front-end%22)%20OR%20%20%20%20(%22Abstract%22:%20%22user%20interface%22)%20)%20%20NOT%20(%22Abstract%22:%20%22mobile%22)%20%20NOT%20(%22Abstract%22:%20%22android%22)%20%20NOT%20(%22Abstract%22:%20%22ios%22)"
+        },
+        {
+          "category": "GUI exploitation",
+          "query_string": "(('Abstract': 'DOM clobbering') OR ('Abstract': 'prototype pollution') ) OR (('Abstract': 'business flow tampering') OR ('Abstract': 'framejacking') OR ('Abstract': 'clickjacking') OR ('Abstract': 'hidden iframe') OR ('Abstract': 'logic tampering')) AND (('Abstract': 'client-side') OR ('Abstract': 'web client') OR ('Abstract': 'web application') OR ('Abstract': 'front-end') OR ('Abstract': 'user interface')) NOT ('Abstract': 'mobile') NOT ('Abstract': 'android') NOT ('Abstract': 'ios')",
+          "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=(%20%20%20(%22Abstract%22:%20%22DOM%20clobbering%22)%20OR%20%20%20(%22Abstract%22:%20%22prototype%20pollution%22)%20)%20OR%20(%20%20%20(%22Abstract%22:%20%22business%20flow%20tampering%22)%20OR%20%20%20%20(%22Abstract%22:%20%22clickjacking%22)%20OR%20%20%20%20(%22Abstract%22:%20%22hidden%20iframe%22)%20OR%20%20%20(%22Abstract%22:%20%22logic%20tampering%22)%20%20)%20AND%20(%20%20%20(%22Abstract%22:%20%22client-side%22)%20OR%20%20%20%20(%22Abstract%22:%20%22web%20client%22)%20OR%20%20%20%20(%22Abstract%22:%20%22web%20application%22)%20OR%20%20%20%20(%22Abstract%22:%20%22front-end%22)%20OR%20%20%20%20(%22Abstract%22:%20%22user%20interface%22)%20)%20%20NOT%20(%22Abstract%22:%20%22mobile%22)%20%20NOT%20(%22Abstract%22:%20%22android%22)%20%20NOT%20(%22Abstract%22:%20%22ios%22)"
+        },
+        {
+          "category": "Client request manipulation",
+          "query_string": "('Abstract': 'tabnabbing') OR ((('Abstract': 'CSRF') OR ('Abstract': 'redirect attack') OR ('Abstract': 'hidden redirect') OR ('Abstract': 'parameter tampering') OR ('Abstract': 'confused deputy')) AND (('Abstract': 'client-side') OR ('Abstract': 'web client') OR ('Abstract': 'web application') OR ('Abstract': 'front-end') OR ('Abstract': 'user interface'))) NOT ('Abstract': 'mobile') NOT ('Abstract': 'android') NOT ('Abstract': 'ios')",
+          "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=(%22Abstract%22:%20%22tabnabbing%22)%20OR%20%20(%20%20(%20%20%20%20%20(%22Abstract%22:%20%22CSRF%22)%20OR%20%20%20%20%20%20(%22Abstract%22:%20%22redirect%20attack%22)%20OR%20%20%20%20%20%20(%22Abstract%22:%20%22hidden%20redirect%22)%20OR%20%20%20%20%20%20(%22Abstract%22:%20%22parameter%20tampering%22)%20OR%20%20%20%20%20(%22Abstract%22:%20%22confused%20deputy%22)%20%20%20)%20%20%20%20AND%20((%22Abstract%22:%20%22client-side%22)%20OR%20%20%20%20%20%20(%22Abstract%22:%20%22web%20client%22)%20OR%20%20%20%20%20%20(%22Abstract%22:%20%22web%20application%22)%20OR%20%20%20%20%20%20(%22Abstract%22:%20%22front-end%22)%20OR%20%20%20%20%20%20(%22Abstract%22:%20%22user%20interface%22)%20%20%20)%20)%20%20NOT%20(%22Abstract%22:%20%22mobile%22)%20%20NOT%20(%22Abstract%22:%20%22android%22)%20%20NOT%20(%22Abstract%22:%20%22ios%22)"
+        },
+        {
+          "category": "Metadata manipulation",
+          "query_string": "(('Abstract': 'improper SameSite') OR ('Abstract': 'cookie theft') OR ('Abstract': 'cookie tampering') OR ('Abstract': 'session hijacking') OR ('Abstract': 'CORS misconfiguration') OR ('Abstract': 'JWT tampering')) AND (('Abstract': 'client-side') OR ('Abstract': 'web client') OR ('Abstract': 'web application') OR ('Abstract': 'front-end') OR ('Abstract': 'user interface')) NOT ('Abstract': 'mobile') NOT ('Abstract': 'android') NOT ('Abstract': 'ios')",
+          "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=(%20%20%20(%22Abstract%22:%20%22improper%20SameSite%22)%20OR%20%20%20%20(%22Abstract%22:%20%22cookie%20theft%22)%20OR%20%20%20%20(%22Abstract%22:%20%22cookie%20tampering%22)%20OR%20%20%20%20(%22Abstract%22:%20%22session%20hijacking%22)%20OR%20%20%20(%22Abstract%22:%20%22CORS%20misconfiguration%22)%20OR%20%20%20(%22Abstract%22:%20%22JWT%20tampering%22)%20%20)%20%20AND%20(%20%20%20(%22Abstract%22:%20%22client-side%22)%20OR%20%20%20%20(%22Abstract%22:%20%22web%20client%22)%20OR%20%20%20%20(%22Abstract%22:%20%22web%20application%22)%20OR%20%20%20%20(%22Abstract%22:%20%22front-end%22)%20OR%20%20%20%20(%22Abstract%22:%20%22user%20interface%22)%20)%20%20NOT%20(%22Abstract%22:%20%22mobile%22)%20%20NOT%20(%22Abstract%22:%20%22android%22)%20%20NOT%20(%22Abstract%22:%20%22ios%22)"
+        },
+        {
+          "category": "Insecure storage",
+          "query_string": "(('Abstract': 'insecure storage') OR ('Abstract': 'localStorage') OR ('Abstract': 'sessionStorage') OR ('Abstract': 'IndexedDB') OR ('Abstract': 'web storage') ) AND (('Abstract': 'client-side') OR ('Abstract': 'web application') OR ('Abstract': 'front-end')) NOT ('Abstract': 'mobile') NOT ('Abstract': 'android') NOT ('Abstract': 'ios')",
+          "url": "https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=(%20%20%20(%22Abstract%22:%20%22insecure%20storage%22)%20OR%20%20%20%20(%22Abstract%22:%20%22localStorage%22)%20OR%20%20%20%20(%22Abstract%22:%20%22sessionStorage%22)%20OR%20%20%20%20(%22Abstract%22:%20%22IndexedDB%22)%20OR%20%20%20(%22Abstract%22:%20%22web%20storage%22)%20%20)%20%20AND%20(%20%20%20(%22Abstract%22:%20%22client-side%22)%20OR%20%20%20%20(%22Abstract%22:%20%22web%20application%22)%20OR%20%20%20%20(%22Abstract%22:%20%22front-end%22)%20)%20%20NOT%20(%22Abstract%22:%20%22mobile%22)%20%20NOT%20(%22Abstract%22:%20%22android%22)%20%20NOT%20(%22Abstract%22:%20%22ios%22)"
+        }
+      ]
+    },
+    {
+      "name": "ScienceDirect",
+      "queries": [
+        {
+          "category": "Direct access to restricted resources",
+          "query_string": "('directory traversal' OR 'force browsing' OR 'path traversal' OR 'insecure direct object reference') AND ('web application' OR 'client')",
+          "url": "https://www.sciencedirect.com/search?tak=%28%22directory%20traversal%22%20OR%20%22force%20browsing%22%20OR%20%22path%20traversal%22%20OR%20%22insecure%20direct%20object%20reference%22%29%20AND%20%28%22web%20application%22%20OR%20%22client%22%29&articleTypes=FLA&lastSelectedFacet=articleTypes"
+        },
+        {
+          "category": "GUI exploitation",
+          "query_string": "('clickjacking' OR 'DOM clobbering' OR 'prototype pollution') OR (('logic tampering' OR 'hidden iframe') AND ('front-end' OR 'web application')) NOT 'android' NOT 'ios'",
+          "url": "https://www.sciencedirect.com/search?tak=%28%22clickjacking%22%20OR%20%22DOM%20clobbering%22%20OR%20%22prototype%20pollution%22%29%20OR%20%28%0A%20%20%28%22logic%20tampering%22%20OR%20%22hidden%20iframe%22%29%20AND%20%28%22front-end%22%20OR%20%22web%20application%22%29%0A%29%20NOT%20%22android%22%20NOT%20%22ios%22"
+        },
+        {
+          "category": "Client request manipulation",
+          "query_string": "('tabnabbing' OR 'CSRF' OR 'redirect attack' OR 'parameter tampering') AND ('web application')",
+          "url": "https://www.sciencedirect.com/search?tak=%28%22tabnabbing%22%20OR%20%22CSRF%22%20OR%20%22redirect%20attack%22%20OR%20%22parameter%20tampering%22%29%20AND%20%28%22web%20application%22%29&articleTypes=FLA&lastSelectedFacet=articleTypes"
+        },
+        {
+          "category": "Metadata manipulation",
+          "query_string": "('improper SameSite' OR 'cookie theft' OR 'session hijacking' OR 'CORS misconfiguration') AND ('front-end' OR 'web application') NOT 'android' NOT 'ios'",
+          "url": "https://www.sciencedirect.com/search?tak=%28%22improper%20SameSite%22%20OR%20%22cookie%20theft%22%20OR%20%22session%20hijacking%22%20OR%20%22CORS%20misconfiguration%22%29%20AND%20%28%22front-end%22%20OR%20%22web%20application%22%29%20NOT%20%22android%22%20NOT%20%22ios%22&articleTypes=REV%2CFLA&lastSelectedFacet=articleTypes"
+        },
+        {
+          "category": "Insecure storage",
+          "query_string": "('localStorage' OR 'sessionStorage' OR 'IndexedDB' OR 'web storage' OR 'insecure storage') AND ('browser' OR 'web application')",
+          "url": "https://www.sciencedirect.com/search?tak=%28%22localStorage%22%20OR%20%22sessionStorage%22%20OR%20%22IndexedDB%22%20OR%20%22web%20storage%22%20OR%20%22insecure%20storage%22%29%20AND%20%28%22browser%22%20OR%20%22web%20application%22%29"
+        }
+      ]
+    }
+  ]
+}
