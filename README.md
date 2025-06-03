@@ -25,4 +25,4 @@ We addressed these questions with a systematic, transparent, and repeatable lite
 
 All the queries and the URLs are available in `data.json`
 
-The distribution of papers by year and the number of papers addressing each vulnerability and attack discussed in our SoK, can be found in the `graphs` folder
+The distribution of papers by year and the number of papers addressing each vulnerability and attack discussed in our SoK, can be found in the `charts` folder
