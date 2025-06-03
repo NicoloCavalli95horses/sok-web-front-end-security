@@ -24,3 +24,5 @@ We addressed these questions with a systematic, transparent, and repeatable lite
 - Insecure storage: ’insecure storage’, ’localStorage’, ’sessionStorage’, ’IndexedDB’, ’web storage’
 
 All the queries and the URLs are available in `data.json`
+
+The distribution of papers by year and the number of papers addressing each vulnerability and attack discussed in our SoK, can be found in the `graphs` folder
